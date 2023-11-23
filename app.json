@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "React Native prototype",
-    "slug": "react-native-prototype",
+    "slug": "jamtools",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -25,6 +25,12 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f82f574a-6b22-4b2b-ada2-8d8d6df30816"
+      }
+    },
+    "owner": "mjkochell"
   }
 }
