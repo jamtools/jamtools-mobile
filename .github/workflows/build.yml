@@ -27,6 +27,9 @@ jobs:
       - name: 📦 Install dependencies
         run: yarn install
 
+      - name: 📦 Install Expo CLI
+        run: yarn install expo-cli --global
+
       - name: 🚀 Create preview
         uses: expo/expo-github-action/preview@v8
         with:
