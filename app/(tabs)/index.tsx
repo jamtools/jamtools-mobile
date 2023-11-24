@@ -53,12 +53,19 @@ export default function TabOneScreen() {
             setUrl((e.target as any).value as string);
             // setUrl(e.target);
           }}
-        />
-        <Button onPress={changeUrl} title='Go'></Button>
-      </View> */}
-      <MyWebComponent url={loadedUrl}/>
+        /> */}
+        {/* <Button onPress={changeUrl} title='Go'></Button> */}
+      {/* </View> */}
+      {/* <MyWebComponent url={loadedUrl}/> */}
+
+        <View style={{paddingTop: 10}}>
+          <Text style={styles.title}>
+            Jam Tools mobile app
+          </Text>
+        </View>
+
       {/* <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" /> */}
-      {/* <EditScree nInfo path="app/(tabs)/index.tsx" /> */}
+      {/* <EditScreenInfo path="app/(tabs)/index.tsx" /> */}
     </View>
   );
 }
